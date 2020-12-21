@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
-//this needs to be imported in App.js
+//this needs to be imported in App.js: import GlobalStyle from "./globalStyle" (the name of the file)
+//place this line inside App.js return: <GlobalStyle />
 
 const GlobalStyle = createGlobalStyle`
   *{
